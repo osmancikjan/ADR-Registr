@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C71C12C71F9E504900E67CF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71C12C61F9E504900E67CF4 /* AppDelegate.swift */; };
+		C71C12C91F9E504900E67CF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71C12C81F9E504900E67CF4 /* ViewController.swift */; };
+		C71C12CC1F9E504900E67CF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C71C12CA1F9E504900E67CF4 /* Main.storyboard */; };
+		C71C12CE1F9E504900E67CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C71C12CD1F9E504900E67CF4 /* Assets.xcassets */; };
+		C71C12D11F9E504900E67CF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C71C12CF1F9E504900E67CF4 /* LaunchScreen.storyboard */; };
+		C71C12DC1F9E504900E67CF4 /* ADR_RegistrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71C12DB1F9E504900E67CF4 /* ADR_RegistrTests.swift */; };
+		C71C12E71F9E504900E67CF4 /* ADR_RegistrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71C12E61F9E504900E67CF4 /* ADR_RegistrUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C71C12D81F9E504900E67CF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C71C12BB1F9E504900E67CF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C71C12C21F9E504900E67CF4;
+			remoteInfo = "ADR Registr";
+		};
+		C71C12E31F9E504900E67CF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C71C12BB1F9E504900E67CF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C71C12C21F9E504900E67CF4;
+			remoteInfo = "ADR Registr";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C71C12C31F9E504900E67CF4 /* ADR Registr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ADR Registr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71C12C61F9E504900E67CF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C71C12C81F9E504900E67CF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C71C12CB1F9E504900E67CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C71C12CD1F9E504900E67CF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C71C12D01F9E504900E67CF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C71C12D21F9E504900E67CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C71C12D71F9E504900E67CF4 /* ADR RegistrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ADR RegistrTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71C12DB1F9E504900E67CF4 /* ADR_RegistrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADR_RegistrTests.swift; sourceTree = "<group>"; };
+		C71C12DD1F9E504900E67CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C71C12E21F9E504900E67CF4 /* ADR RegistrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ADR RegistrUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71C12E61F9E504900E67CF4 /* ADR_RegistrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADR_RegistrUITests.swift; sourceTree = "<group>"; };
+		C71C12E81F9E504900E67CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C71C12C01F9E504900E67CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71C12D41F9E504900E67CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71C12DF1F9E504900E67CF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C71C12BA1F9E504900E67CF4 = {
+			isa = PBXGroup;
+			children = (
+				C71C12C51F9E504900E67CF4 /* ADR Registr */,
+				C71C12DA1F9E504900E67CF4 /* ADR RegistrTests */,
+				C71C12E51F9E504900E67CF4 /* ADR RegistrUITests */,
+				C71C12C41F9E504900E67CF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C71C12C41F9E504900E67CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C71C12C31F9E504900E67CF4 /* ADR Registr.app */,
+				C71C12D71F9E504900E67CF4 /* ADR RegistrTests.xctest */,
+				C71C12E21F9E504900E67CF4 /* ADR RegistrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C71C12C51F9E504900E67CF4 /* ADR Registr */ = {
+			isa = PBXGroup;
+			children = (
+				C71C12C61F9E504900E67CF4 /* AppDelegate.swift */,
+				C71C12C81F9E504900E67CF4 /* ViewController.swift */,
+				C71C12CA1F9E504900E67CF4 /* Main.storyboard */,
+				C71C12CD1F9E504900E67CF4 /* Assets.xcassets */,
+				C71C12CF1F9E504900E67CF4 /* LaunchScreen.storyboard */,
+				C71C12D21F9E504900E67CF4 /* Info.plist */,
+			);
+			path = "ADR Registr";
+			sourceTree = "<group>";
+		};
+		C71C12DA1F9E504900E67CF4 /* ADR RegistrTests */ = {
+			isa = PBXGroup;
+			children = (
+				C71C12DB1F9E504900E67CF4 /* ADR_RegistrTests.swift */,
+				C71C12DD1F9E504900E67CF4 /* Info.plist */,
+			);
+			path = "ADR RegistrTests";
+			sourceTree = "<group>";
+		};
+		C71C12E51F9E504900E67CF4 /* ADR RegistrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C71C12E61F9E504900E67CF4 /* ADR_RegistrUITests.swift */,
+				C71C12E81F9E504900E67CF4 /* Info.plist */,
+			);
+			path = "ADR RegistrUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C71C12C21F9E504900E67CF4 /* ADR Registr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C71C12EB1F9E504900E67CF4 /* Build configuration list for PBXNativeTarget "ADR Registr" */;
+			buildPhases = (
+				C71C12BF1F9E504900E67CF4 /* Sources */,
+				C71C12C01F9E504900E67CF4 /* Frameworks */,
+				C71C12C11F9E504900E67CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ADR Registr";
+			productName = "ADR Registr";
+			productReference = C71C12C31F9E504900E67CF4 /* ADR Registr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C71C12D61F9E504900E67CF4 /* ADR RegistrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C71C12EE1F9E504900E67CF4 /* Build configuration list for PBXNativeTarget "ADR RegistrTests" */;
+			buildPhases = (
+				C71C12D31F9E504900E67CF4 /* Sources */,
+				C71C12D41F9E504900E67CF4 /* Frameworks */,
+				C71C12D51F9E504900E67CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C71C12D91F9E504900E67CF4 /* PBXTargetDependency */,
+			);
+			name = "ADR RegistrTests";
+			productName = "ADR RegistrTests";
+			productReference = C71C12D71F9E504900E67CF4 /* ADR RegistrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C71C12E11F9E504900E67CF4 /* ADR RegistrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C71C12F11F9E504900E67CF4 /* Build configuration list for PBXNativeTarget "ADR RegistrUITests" */;
+			buildPhases = (
+				C71C12DE1F9E504900E67CF4 /* Sources */,
+				C71C12DF1F9E504900E67CF4 /* Frameworks */,
+				C71C12E01F9E504900E67CF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C71C12E41F9E504900E67CF4 /* PBXTargetDependency */,
+			);
+			name = "ADR RegistrUITests";
+			productName = "ADR RegistrUITests";
+			productReference = C71C12E21F9E504900E67CF4 /* ADR RegistrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C71C12BB1F9E504900E67CF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jan Osmancik";
+				TargetAttributes = {
+					C71C12C21F9E504900E67CF4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					C71C12D61F9E504900E67CF4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C71C12C21F9E504900E67CF4;
+					};
+					C71C12E11F9E504900E67CF4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C71C12C21F9E504900E67CF4;
+					};
+				};
+			};
+			buildConfigurationList = C71C12BE1F9E504900E67CF4 /* Build configuration list for PBXProject "ADR Registr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C71C12BA1F9E504900E67CF4;
+			productRefGroup = C71C12C41F9E504900E67CF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C71C12C21F9E504900E67CF4 /* ADR Registr */,
+				C71C12D61F9E504900E67CF4 /* ADR RegistrTests */,
+				C71C12E11F9E504900E67CF4 /* ADR RegistrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C71C12C11F9E504900E67CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71C12D11F9E504900E67CF4 /* LaunchScreen.storyboard in Resources */,
+				C71C12CE1F9E504900E67CF4 /* Assets.xcassets in Resources */,
+				C71C12CC1F9E504900E67CF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71C12D51F9E504900E67CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71C12E01F9E504900E67CF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C71C12BF1F9E504900E67CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71C12C91F9E504900E67CF4 /* ViewController.swift in Sources */,
+				C71C12C71F9E504900E67CF4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71C12D31F9E504900E67CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71C12DC1F9E504900E67CF4 /* ADR_RegistrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71C12DE1F9E504900E67CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71C12E71F9E504900E67CF4 /* ADR_RegistrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C71C12D91F9E504900E67CF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C71C12C21F9E504900E67CF4 /* ADR Registr */;
+			targetProxy = C71C12D81F9E504900E67CF4 /* PBXContainerItemProxy */;
+		};
+		C71C12E41F9E504900E67CF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C71C12C21F9E504900E67CF4 /* ADR Registr */;
+			targetProxy = C71C12E31F9E504900E67CF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C71C12CA1F9E504900E67CF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C71C12CB1F9E504900E67CF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C71C12CF1F9E504900E67CF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C71C12D01F9E504900E67CF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C71C12E91F9E504900E67CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C71C12EA1F9E504900E67CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C71C12EC1F9E504900E67CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ADR Registr/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "osmancikjan.ADR-Registr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C71C12ED1F9E504900E67CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ADR Registr/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "osmancikjan.ADR-Registr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C71C12EF1F9E504900E67CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ADR RegistrTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "osmancikjan.ADR-RegistrTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADR Registr.app/ADR Registr";
+			};
+			name = Debug;
+		};
+		C71C12F01F9E504900E67CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ADR RegistrTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "osmancikjan.ADR-RegistrTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADR Registr.app/ADR Registr";
+			};
+			name = Release;
+		};
+		C71C12F21F9E504900E67CF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "ADR RegistrUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "osmancikjan.ADR-RegistrUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ADR Registr";
+			};
+			name = Debug;
+		};
+		C71C12F31F9E504900E67CF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "ADR RegistrUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "osmancikjan.ADR-RegistrUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ADR Registr";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C71C12BE1F9E504900E67CF4 /* Build configuration list for PBXProject "ADR Registr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71C12E91F9E504900E67CF4 /* Debug */,
+				C71C12EA1F9E504900E67CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C71C12EB1F9E504900E67CF4 /* Build configuration list for PBXNativeTarget "ADR Registr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71C12EC1F9E504900E67CF4 /* Debug */,
+				C71C12ED1F9E504900E67CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C71C12EE1F9E504900E67CF4 /* Build configuration list for PBXNativeTarget "ADR RegistrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71C12EF1F9E504900E67CF4 /* Debug */,
+				C71C12F01F9E504900E67CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C71C12F11F9E504900E67CF4 /* Build configuration list for PBXNativeTarget "ADR RegistrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71C12F21F9E504900E67CF4 /* Debug */,
+				C71C12F31F9E504900E67CF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C71C12BB1F9E504900E67CF4 /* Project object */;
+}
