@@ -14,6 +14,7 @@
 		C71C12D11F9E504900E67CF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C71C12CF1F9E504900E67CF4 /* LaunchScreen.storyboard */; };
 		C71C12DC1F9E504900E67CF4 /* ADR_RegistrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71C12DB1F9E504900E67CF4 /* ADR_RegistrTests.swift */; };
 		C71C12E71F9E504900E67CF4 /* ADR_RegistrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71C12E61F9E504900E67CF4 /* ADR_RegistrUITests.swift */; };
+		C78106001F9F07370072AB77 /* registr.json in Resources */ = {isa = PBXBuildFile; fileRef = C78105FF1F9F07370072AB77 /* registr.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C71C12E21F9E504900E67CF4 /* ADR RegistrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ADR RegistrUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C71C12E61F9E504900E67CF4 /* ADR_RegistrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADR_RegistrUITests.swift; sourceTree = "<group>"; };
 		C71C12E81F9E504900E67CF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C78105FF1F9F07370072AB77 /* registr.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = registr.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		C71C12C51F9E504900E67CF4 /* ADR Registr */ = {
 			isa = PBXGroup;
 			children = (
+				C78105FF1F9F07370072AB77 /* registr.json */,
 				C71C12C61F9E504900E67CF4 /* AppDelegate.swift */,
 				C71C12C81F9E504900E67CF4 /* ViewController.swift */,
 				C71C12CA1F9E504900E67CF4 /* Main.storyboard */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					C71C12C21F9E504900E67CF4 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 75MJRBQ98J;
 						ProvisioningStyle = Automatic;
 					};
 					C71C12D61F9E504900E67CF4 = {
@@ -232,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C78106001F9F07370072AB77 /* registr.json in Resources */,
 				C71C12D11F9E504900E67CF4 /* LaunchScreen.storyboard in Resources */,
 				C71C12CE1F9E504900E67CF4 /* Assets.xcassets in Resources */,
 				C71C12CC1F9E504900E67CF4 /* Main.storyboard in Resources */,
@@ -414,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75MJRBQ98J;
 				INFOPLIST_FILE = "ADR Registr/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "osmancikjan.ADR-Registr";
@@ -426,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75MJRBQ98J;
 				INFOPLIST_FILE = "ADR Registr/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "osmancikjan.ADR-Registr";
@@ -507,6 +514,7 @@
 				C71C12ED1F9E504900E67CF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C71C12EE1F9E504900E67CF4 /* Build configuration list for PBXNativeTarget "ADR RegistrTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				C71C12F01F9E504900E67CF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C71C12F11F9E504900E67CF4 /* Build configuration list for PBXNativeTarget "ADR RegistrUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +532,7 @@
 				C71C12F31F9E504900E67CF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
