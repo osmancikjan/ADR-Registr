@@ -8,8 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate, UITextFieldDelegate {
 
+class MyPrototypeCel: UITableViewCell {
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var un: UILabel!
+    @IBOutlet weak var kemler: UILabel!
+}
+
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate, UITextFieldDelegate {
+    
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var searchBar: UISearchBar!
     @IBOutlet weak var txtKemler: UITextField!
@@ -20,6 +27,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     var isNazevSearching = false
     var isUnSearching = false
     var isKemlerSearching = false
+    var un: String = ""
+    var kemler: String = ""
+    var name: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,19 +52,43 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! MyPrototypeCel
         
         if isNazevSearching || isUnSearching || isKemlerSearching {
-            cell?.textLabel?.text = filteredData[indexPath.row].nazev
-            cell?.detailTextLabel?.text = "UN: " + filteredData[indexPath.row].un + ", KEMLER: " + filteredData[indexPath.row].kemler
+            cell.name.text = filteredData[indexPath.row].nazev
+            cell.un.text = filteredData[indexPath.row].un
+            cell.kemler.text = filteredData[indexPath.row].kemler
         }
         else {
-            cell?.textLabel?.text = parsedData[indexPath.row].nazev
-            cell?.detailTextLabel?.text = "UN: " + parsedData[indexPath.row].un + ", KEMLER: " + parsedData[indexPath.row].kemler
+            cell.name.text = parsedData[indexPath.row].nazev
+            cell.un.text = parsedData[indexPath.row].un
+            cell.kemler.text = parsedData[indexPath.row].kemler
         }
-        return cell!
+        return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("Selected row at index: ", indexPath.row)
+   
+        let indexPath = tableView.indexPathForSelectedRow!
+        let currentCell = tableView.cellForRow(at: indexPath)! as! MyPrototypeCel
+        
+        self.un = currentCell.un.text!
+        self.kemler = currentCell.kemler.text!
+        self.name = currentCell.name.text!
+   
+        self.performSegue(withIdentifier: "ShowDetail", sender: self)
+    }
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ShowDetail" {
+            if let destination = segue.destination as? DetailViewController {
+                destination.un = self.un
+                destination.kemler = self.kemler
+            }
+        }
+    }
+  
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String){
         if searchBar.text == nil || searchBar.text == "" {
             isNazevSearching = false
