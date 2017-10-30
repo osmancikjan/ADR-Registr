@@ -24,9 +24,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     var parsedData = [Latka]()
     var filteredData = [Latka]()
+    
     var isNazevSearching = false
     var isUnSearching = false
     var isKemlerSearching = false
+    
     var un: String = ""
     var kemler: String = ""
     var name: String = ""
@@ -73,18 +75,25 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let indexPath = tableView.indexPathForSelectedRow!
         let currentCell = tableView.cellForRow(at: indexPath)! as! MyPrototypeCel
         
-        self.un = currentCell.un.text!
-        self.kemler = currentCell.kemler.text!
-        self.name = currentCell.name.text!
+        un = currentCell.un.text!
+        kemler = currentCell.kemler.text!
+        name = currentCell.name.text!
    
         self.performSegue(withIdentifier: "ShowDetail", sender: self)
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "ShowDetail" {
+            let backItem = UIBarButtonItem()
+            backItem.title = "Zpet"
+            navigationItem.backBarButtonItem = backItem
             if let destination = segue.destination as? DetailViewController {
-                destination.un = self.un
-                destination.kemler = self.kemler
+                destination.un = un
+                print(un)
+                destination.kemler = kemler
+                print(kemler)
+                destination.name = name
+                print(name)
             }
         }
     }
